@@ -16,9 +16,9 @@ const scores = [
 // 66
 // ==========================================
 
-for (let i = 0; i < scores.length; i++) {
-    console.log(scores[i].score)
-}
+// for (let i = 0; i < scores.length; i++) {
+//     console.log(scores[i].score)
+// }
 
 // ==========================================
 // Opdracht 1b
@@ -32,32 +32,32 @@ for (let i = 0; i < scores.length; i++) {
 // D
 // ==========================================
 
-for (let i = 0; i < scores.length; i++) {
-    let score = scores[i].score
-    let grade = 0
-    switch (true) {
-        case score < 60:
-            grade = "F"
-            console.log(grade)
-            break;
-        case score < 70 && score > 59:
-            grade = "D"
-            console.log(grade)
-            break;
-        case score < 80 && score >69:
-            grade = "C"
-            console.log(grade)
-            break;
-        case score < 90 && score >79:
-            grade = "B"
-            console.log(grade)
-            break;
-        case score < 100 && score >89:
-            grade = "A"
-            console.log(grade)
-            break;
-    }
-}
+// for (let i = 0; i < scores.length; i++) {
+//     let score = scores[i].score
+//     let grade = 0
+//     switch (true) {
+//         case score < 60:
+//             grade = "F"
+//             console.log(grade)
+//             break;
+//         case score < 70 && score > 59:
+//             grade = "D"
+//             console.log(grade)
+//             break;
+//         case score < 80 && score >69:
+//             grade = "C"
+//             console.log(grade)
+//             break;
+//         case score < 90 && score >79:
+//             grade = "B"
+//             console.log(grade)
+//             break;
+//         case score < 100 && score >89:
+//             grade = "A"
+//             console.log(grade)
+//             break;
+//     }
+// }
 
 // ==========================================
 // Opdracht 1c
@@ -72,36 +72,36 @@ for (let i = 0; i < scores.length; i++) {
 //  ];
 // ==========================================
 
-console.log(scores)
-
-for (let i = 0; i < scores.length; i++) {
-    let score = scores[i].score
-    let grade = 0
-    switch (true) {
-        case score < 60:
-            grade = "F"
-            scores[i].grade = grade
-            break;
-        case score < 70 && score > 59:
-            grade = "D"
-            scores[i].grade = grade
-            break;
-        case score < 80 && score >69:
-            grade = "C"
-            scores[i].grade = grade
-            break;
-        case score < 90 && score >79:
-            grade = "B"
-            scores[i].grade = grade
-            break;
-        case score < 100 && score >89:
-            grade = "A"
-            scores[i].grade = grade
-            break;
-    }
-}
-
-console.log(scores)
+// console.log(scores)
+//
+// for (let i = 0; i < scores.length; i++) {
+//     let score = scores[i].score
+//     let grade = 0
+//     switch (true) {
+//         case score < 60:
+//             grade = "F"
+//             scores[i].grade = grade
+//             break;
+//         case score < 70 && score > 59:
+//             grade = "D"
+//             scores[i].grade = grade
+//             break;
+//         case score < 80 && score >69:
+//             grade = "C"
+//             scores[i].grade = grade
+//             break;
+//         case score < 90 && score >79:
+//             grade = "B"
+//             scores[i].grade = grade
+//             break;
+//         case score < 100 && score >89:
+//             grade = "A"
+//             scores[i].grade = grade
+//             break;
+//     }
+// }
+//
+// console.log(scores)
 
 // ==========================================
 // Opdracht 2
@@ -125,26 +125,26 @@ const NOVIEmployees = [
 //  ];
 // ==========================================
 
-console.log(NOVIEmployees)
-
-for (let i = 0; i <NOVIEmployees.length; i++) {
-    NOVIEmployees[i].email = `${NOVIEmployees[i].firstName}.${NOVIEmployees[i].lastName}@novi.nl`
-}
-
-console.log(NOVIEmployees)
+// console.log(NOVIEmployees)
+//
+// for (let i = 0; i <NOVIEmployees.length; i++) {
+//     NOVIEmployees[i].email = `${NOVIEmployees[i].firstName}.${NOVIEmployees[i].lastName}@novi.nl`
+// }
+//
+// console.log(NOVIEmployees)
 
 // Opdracht 2-BONUS
 // Lukt het je om ervoor te zorgen dat alle e-mailadressen in lowercase letters komen te staan? Dit heb je nog niet geleerd, maar google is your best friend...
 // ==========================================
 
-console.log(NOVIEmployees);
-
-for (let i = 0; i <NOVIEmployees.length; i++) {
-    let email = `${NOVIEmployees[i].firstName}.${NOVIEmployees[i].lastName}@novi.nl`;
-    NOVIEmployees[i].email = email.toLowerCase();
-}
-
-console.log(NOVIEmployees);
+// console.log(NOVIEmployees);
+//
+// for (let i = 0; i <NOVIEmployees.length; i++) {
+//     let email = `${NOVIEmployees[i].firstName}.${NOVIEmployees[i].lastName}@novi.nl`;
+//     NOVIEmployees[i].email = email.toLowerCase();
+// }
+//
+// console.log(NOVIEmployees);
 
 // ==========================================
 // Opdracht 3
@@ -190,34 +190,34 @@ const students = [
 // ]
 // ==========================================
 
-console.log(students)
-
-for (let i = 0; i <students.length; i++) {
-    switch (true) {
-        case students[i].zipCode == 3513:
-            students[i].neighborhood = "Pijlsweerd";
-            break;
-        case students[i].zipCode == 3514:
-            students[i].neighborhood = "Vogelenbuurt";
-            break;
-        case students[i].zipCode == 3512:
-            students[i].neighborhood = "Binnenstad";
-            break;
-        case students[i].zipCode == 3531:
-            students[i].neighborhood = "Lombok";
-            break;
-        case students[i].zipCode == 3572:
-            students[i].neighborhood = "Wittevrouwen";
-            break;
-        case students[i].zipCode == 3581:
-            students[i].neighborhood = "Oudwijk";
-            break;
-        case students[i].zipCode == 3583:
-            students[i].neighborhood = "Schildersbuurt";
-            break;
-        default:
-            students[i].neighborhood = "wtf bro...";
-    }
-}
-
-console.log(students)
+// console.log(students)
+//
+// for (let i = 0; i <students.length; i++) {
+//     switch (true) {
+//         case students[i].zipCode == 3513:
+//             students[i].neighborhood = "Pijlsweerd";
+//             break;
+//         case students[i].zipCode == 3514:
+//             students[i].neighborhood = "Vogelenbuurt";
+//             break;
+//         case students[i].zipCode == 3512:
+//             students[i].neighborhood = "Binnenstad";
+//             break;
+//         case students[i].zipCode == 3531:
+//             students[i].neighborhood = "Lombok";
+//             break;
+//         case students[i].zipCode == 3572:
+//             students[i].neighborhood = "Wittevrouwen";
+//             break;
+//         case students[i].zipCode == 3581:
+//             students[i].neighborhood = "Oudwijk";
+//             break;
+//         case students[i].zipCode == 3583:
+//             students[i].neighborhood = "Schildersbuurt";
+//             break;
+//         default:
+//             students[i].neighborhood = "wtf bro...";
+//     }
+// }
+//
+// console.log(students)

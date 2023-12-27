@@ -13,10 +13,10 @@
 // ==========================================
 
 
-for (let i = 1; i < 6; i++) {
-    const asterisk = "*"
-    console.log(asterisk.repeat(i))
-}
+// for (let i = 1; i < 6; i++) {
+//     const asterisk = "*"
+//     console.log(asterisk.repeat(i))
+// }
 
 
 // ==========================================
@@ -29,16 +29,16 @@ for (let i = 1; i < 6; i++) {
 // klaar!
 // ==========================================
 
-const loading = "loop..."
-const ready = "klaar!"
-
-for (i = 0; i < 5; i++) {
-    if (i < 4) {
-        console.log(loading);
-    } else {
-        console.log(ready);
-    }
-}
+// const loading = "loop..."
+// const ready = "klaar!"
+//
+// for (i = 0; i < 5; i++) {
+//     if (i < 4) {
+//         console.log(loading);
+//     } else {
+//         console.log(ready);
+//     }
+// }
 
 // ==========================================
 // Opdracht 3: maak een for-loop die van 0 tot 9 loopt en de getallen 0 tot 9 logt.
@@ -56,19 +56,19 @@ for (i = 0; i < 5; i++) {
 // >> 9
 // ==========================================
 
-for (let i = 0; i < 10; i++) {
-    switch (true) {
-        case i < 4 && i > -1:
-            console.log(i)
-            break;
-        case i < 7 && i > 3:
-            console.log('> ' + i)
-            break;
-        case i < 10 && i > 6:
-            console.log('>> ' + i);
-            break;
-    }
-}
+// for (let i = 0; i < 10; i++) {
+//     switch (true) {
+//         case i < 4 && i > -1:
+//             console.log(i)
+//             break;
+//         case i < 7 && i > 3:
+//             console.log('> ' + i)
+//             break;
+//         case i < 10 && i > 6:
+//             console.log('>> ' + i);
+//             break;
+//     }
+// }
 
 // ==========================================
 // Opdracht 4 (BONUS): schrijf een for-loop die van 0 tot 100 loopt en de getallen print.
@@ -108,19 +108,19 @@ for (let i = 0; i < 10; i++) {
 // etc.
 // ==========================================
 
-for (let i = 0; i < 101; i++) {
-    switch (true) {
-        case i % 3 == 0 && i % 5 == 0:
-            console.log("FizzBuzz")
-            break;
-        case i % 3 == 0 && i % 5 != 0:
-            console.log("Fizz")
-            break;
-        case i % 3 != 0 && i % 5 == 0:
-            console.log("Buzz")
-            break;
-        default:
-            console.log(i);
-    }
-}
+// for (let i = 0; i < 101; i++) {
+//     switch (true) {
+//         case i % 3 == 0 && i % 5 == 0:
+//             console.log("FizzBuzz")
+//             break;
+//         case i % 3 == 0 && i % 5 != 0:
+//             console.log("Fizz")
+//             break;
+//         case i % 3 != 0 && i % 5 == 0:
+//             console.log("Buzz")
+//             break;
+//         default:
+//             console.log(i);
+//     }
+// }
 
